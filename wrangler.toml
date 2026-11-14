@@ -11,5 +11,6 @@ ALLOWED_UPSTREAM_HOSTS = "http://119.10.136.162:8080"
 
 
 # ตั้งค่าเฉพาะเมื่อผู้ให้บริการแจ้งค่าอย่างเป็นทางการ
-# UPSTREAM_REFERER = ""
-# UPSTREAM_ORIGIN = ""
+ UPSTREAM_REFERER = "
+https://playidv4.cdn2-stream.workers.dev"
+UPSTREAM_ORIGIN = "http://119.10.136.162:8080"
