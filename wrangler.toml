@@ -1,0 +1,11 @@
+name = "playidv4"
+main = "worker.js"
+compatibility_date = "2026-11-15"
+
+[vars]
+BACKEND_BASE_URL = "http://119.10.136.162:8080"
+# เพิ่มเฉพาะ hostname CDN ที่ได้รับอนุญาต คั่นด้วย comma
+ALLOWED_UPSTREAM_HOSTS = "https://playidv4.cdn2-stream.workers.dev"
+# ตั้งค่าเฉพาะเมื่อผู้ให้บริการแจ้งค่าอย่างเป็นทางการ
+# UPSTREAM_REFERER = ""
+# UPSTREAM_ORIGIN = ""
