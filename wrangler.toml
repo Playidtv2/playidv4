@@ -7,7 +7,7 @@ compatibility_date = "2026-11-14"
 [vars]
 BACKEND_BASE_URL = "https://playidv4.cdn2-stream.workers.dev"
 # เพิ่มเฉพาะ hostname CDN ที่ได้รับอนุญาต คั่นด้วย comma
-ALLOWED_UPSTREAM_HOSTS = "const TARGET_HOST = "http://119.10.136.162:8080";
+ALLOWED_UPSTREAM_HOSTS = "const TARGET_HOST = "http://119.10.136.162:8080"
 
 
 # ตั้งค่าเฉพาะเมื่อผู้ให้บริการแจ้งค่าอย่างเป็นทางการ
