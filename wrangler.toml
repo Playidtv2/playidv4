@@ -1,6 +1,7 @@
 name = "playidv4"
 main = "worker.js"
-compatibility_date": "2026-11-14"
+compatibility_date = "2026-11-14"
+
 
 
 [vars]
